@@ -1,0 +1,268 @@
+﻿#wrapper { 
+ margin: 0 auto;
+ width: 900px;
+}
+
+#header {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0px;
+    color:#333;
+    width:900px;
+    padding:10px;
+    padding-bottom:20px;     
+    height: 200px;   /*130*/
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+#pan_login{
+ float: right;
+ width: 50%; 
+ padding-top: 5px;
+ margin-bottom: 20px;
+ /*margin-top: 10px;*/
+}
+
+#pan_login table tr td{
+ padding: 2px 5px;
+}
+
+#contenitore{
+ padding:0px 10px; 
+ width:900px; 
+ margin-top: -50px;
+}
+
+#presentazione{
+ width: 50%; 
+ line-height:1.5em;
+ margin: 40px auto 60px auto;
+}
+
+#presentazione p, #presentazioneAdmin p{
+ /*margin:0px 20px;*/  
+ margin: -20px 20px 0 20px
+}
+
+#presentazioneAdmin{
+    margin-top:60px;
+}
+
+#registrazione{
+ /*width: 55%;*/
+ width: 65%;
+ margin: -150px auto -80px auto;    
+}
+
+#registrazione select {
+    margin: 0;
+}
+
+
+/*#registrazione select:first-of-type {
+    margin-left: 10px;
+}*/
+
+.floatRight{
+    float:right;
+}
+
+.floatLeft{
+    float:left;
+}
+
+.centrato{
+    margin:20px 20%;
+}
+#bandiere
+{
+    text-align:right;
+    margin-right: 10px;
+}
+
+#bandiere li
+{
+    display:inline;
+    margin-left:15px;    
+}
+
+#header .left_header, .headerGrid .left_header
+{
+	padding: 0;
+	margin:0px !important;
+	margin-right:-3px; 
+	width: 15px;
+	float: left;
+}
+
+#header .right_header, .headerGrid .right_header
+{
+	padding:0;
+	margin:0px;
+	margin-left:-3px; 
+    *margin-left:-13px; 
+	float:right;
+	width:15px;
+}
+
+#header .center_header
+{
+	padding: 0;	
+	height: 50px;
+	background-image: url( '../images/tab_body.png' );
+	background-repeat: repeat-x;
+}
+
+#header .center_header h1.title
+{
+	color:Black;
+	padding: 15px 0  0 15px;
+	height: 30px;
+	font-size: 1.0em;
+}
+
+
+.headerGrid
+{
+	padding:0px;
+	margin:0px;
+}
+
+.headerGrid .center_header_grid
+{
+	/*padding: 0px 0 0 30;	*/
+	height: 35px;
+	background-image: url( '../images/tab_body.png' );
+	background-repeat: repeat-x;	
+	padding-top:10px;
+}
+
+.headerGrid .center_header_grid a
+{
+	text-decoration:none;
+}
+	
+.headerGrid .center_header_grid h1.gridTitle
+{
+	color:Black;
+	margin:0px;
+	padding: 15px 0  0 15px;
+	height: 30px;
+	font-size: 1em;
+	font-weight: normal;
+}
+/*
+.td1
+{
+	width:180px;
+}
+
+.td2
+{
+	width:230px;
+}
+.td3
+{
+	width:240px;
+}*/
+
+
+.sxline{
+    border-left:1px solid lightgrey !important;
+    padding-left:3px !important;
+}
+
+.regGrid{
+ width:100%;  
+ margin-left: 10px;   
+}
+
+.regGrid tr td{
+     padding: 2px 5px;
+}
+
+.regGrid tr td:first-child{
+    width:60%;
+}
+
+/*#lingue{
+    margin-bottom:5px;
+}*/
+
+h1.titolo
+{
+	color:Black;	
+	font-size: 1.0em;
+}
+
+.grassetto{
+    font-weight:bold;
+}
+
+#boxTitoloSede{
+    width:40%;
+    padding-left:15px;
+}
+
+
+#button {
+    float: right;
+    text-align: right;
+    width: 900px;
+}
+
+#pan_button {
+    float: right;
+    margin-right: 19px;
+    margin-top: 10px;
+}
+
+#footer {
+    text-align: center; 
+    margin-top: 80px; 
+    clear: both; 
+    font-size: 12px;
+}
+
+#BtnRegistrati {
+    /*float: right;*/
+}
+
+#BtnLogin {
+    margin-top: 50px;
+    /*float: right;*/
+}
+
+#BtnPwdDimenticataL {
+    text-decoration: underline;
+    font-size: 11px;
+}
+
+#boxLingue {
+    margin-top: -60px;
+    margin-right: 10px;
+}
+
+#larghezza_presentazione{
+    width:900px;
+    float:left;
+}
+
+#panPwdDimenticata {
+    width: 65%;
+    margin: 0 auto;
+}
+
+#Tblpwdd {
+    margin-left: 15px;
+}
+
+#LblObbDati {
+    margin-left: 8px;
+}
+
+#FailureText {
+    color: red;
+}
